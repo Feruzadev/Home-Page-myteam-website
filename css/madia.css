@@ -249,8 +249,23 @@
     /* ABOUT CLIENTS */
 
     /* CONTACT PAGE */
+    .contact-page {
+        margin-top: 112px;
+        padding-bottom: 112px;
+    }
     .contact-page__inner {
         flex-wrap: wrap;
+        justify-content: center;  
+        row-gap: 64px;      
+    }
+    .contact-page__desc {
+        max-width: 515px;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-page__ask {
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 
     /* CONTACT PAGE */
@@ -527,6 +542,47 @@
     }
 
     /* ABOUT CLIENTS */
+    
+    /* CONTACT PAGE */
+    .contact-page {
+        margin-top: 80px;
+        padding-bottom: 88px;
+    }
+    .contact-page::before{
+        display: none;
+    }
+    .contact-page__headline {
+        font-size: 40px;
+    }
+    .contact-page__ask {
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+    .contact-page__inner {
+        flex-wrap: wrap;
+        justify-content: center;  
+        row-gap: 64px;      
+    }
+    .contact-page__desc {
+        max-width: 515px;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-page__ask {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .contact-page__text{
+        text-align: start;
+        max-width: 232px;
+        width: 100%;
+    }
+    .contact-page::after {
+        bottom: -100px;
+    }
+
+    /* CONTACT PAGE */
+}
 
 
     /* SITE FOOTER */

@@ -568,6 +568,7 @@ body {
     position: absolute;
     bottom: -28px;
     transition: .4s;
+    z-index: 11;
 }
 .team-about__more:hover{
     cursor: pointer;
@@ -575,8 +576,11 @@ body {
 
 }
 
-.team-about__more:hover ~ .team-card__content {
+/* .team-about__more:hover ~ .team-card__content {
     transform: scale(1);
+} */
+.active{
+    transform: scale(1) !important;
 }
 .team-card__content {
     width: 100%;
@@ -653,7 +657,7 @@ body {
 
 /* CONTACT PAGE */
 .contact-page {
-    padding-top: 130px;
+    margin-top: 130px;
     padding-bottom: 128px;
     position: relative;
     overflow: hidden;
@@ -661,7 +665,7 @@ body {
 .contact-page::before {
     content: url(../img/bg-pattern-about-2-contact-1.svg);
     position: absolute;
-    top: 20%;
+    top: 0;
     left: -100px;
 }
 .contact-page::after {
